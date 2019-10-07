@@ -13,7 +13,7 @@ function formatOffice(office) {
 
     displayOffice.drivers =
         office.drivers
-            .map(driver => `${driver.first} ${driver.last}`)
+            .map(d => `${d.first} ${d.last}`)
             .join(', ');
 
     return displayOffice;
