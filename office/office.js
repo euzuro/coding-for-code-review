@@ -21,7 +21,7 @@ function formatOffice(office) {
     const country = office.address.country;
     const zip = office.address.zip;
 
-    // Simple address foomat
+    // Simple address format
     displayOffice.address = `${street}, ${city}, ${country} ${zip}`;
 
     displayOffice.drivers = formatDrivers(office.drivers);
