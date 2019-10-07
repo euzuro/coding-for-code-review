@@ -1,7 +1,7 @@
 
 // Format driver for easy display
 function formatDriver(driver) {
-    return `${driver.first} ${driver.last}`;
+    return `${driver.first} ${driver.last} (${driver.seniority})`;
 }
 
 // Format drivers for easy display
