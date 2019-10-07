@@ -7,6 +7,8 @@ function formatOffice(office) {
     const city = office.address.city;
     const country = office.address.country;
     const zip = office.address.zip;
+
+    // Simple adresse format
     displayOffice.address = `${street}, ${city}, ${country} ${zip}`;
 
     displayOffice.drivers =
