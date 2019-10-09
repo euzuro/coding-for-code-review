@@ -3,9 +3,15 @@ function formatDriver(driver) {
     return `${driver.first} ${driver.last}`;
 }
 
+// I love you javascript
+function sortDriver(d1, d2) {
+    return d2.seniority - d1.seniority;
+}
+
 // Format drivers for easy display
 function formatDrivers(drivers) {
     return drivers
+        .sort(sortDriver)
         .map(formatDriver)
         .join(', ');
 }
