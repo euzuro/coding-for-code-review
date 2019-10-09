@@ -3,7 +3,7 @@
 This is a small repo used for the talk: **Coding for Code Review**
 ([Slides](http://bit.ly/coding-for-code-review-slides))
 
-## Introduction
+## Introductions
 
 Let's pretend we are working on the reporting UI for one of those
 food delivery services.
