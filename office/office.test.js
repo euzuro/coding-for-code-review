@@ -29,7 +29,7 @@ describe('office', function () {
             const EXPECTED = {
                 name: "Bordeaux",
                 address: "39 Rue du Château d'Eau, Bordeaux, France 33000",
-                drivers: "Lewis HAMILTON, Daniel RICCARDO, Max VERSTAPPEN"
+                drivers: "Lewis HAMILTON (12), Daniel RICCARDO (5), Max VERSTAPPEN (3)"
             };
             expect(formatOffice(OFFICE)).toEqual(EXPECTED);
         });
