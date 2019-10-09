@@ -45,4 +45,5 @@ const officeDisplay = formatOffice(officeJson);
 
 Notes:
 - The `address` object is de-structured into a single string.
-- The `drivers` array is mapped into a single, comma-delimited string.
+- The `drivers` array is mapped into a single, comma-delimited string of driver
+  names and seniority.
