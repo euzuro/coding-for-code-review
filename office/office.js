@@ -17,7 +17,7 @@ function formatOffice(office) {
     // Display name is just office name.
     displayOffice.name = office.name;
 
-    // Simple address foomat
+    // Simple address format
     const address = office.address;
     const street = address.street;
     const city = address.city;
