@@ -1,11 +1,17 @@
 // Format driver for display
 function formatDriver(driver) {
-    return `${driver.first} ${driver.last}`;
+    return `${driver.first} ${driver.last} (${driver.seniority})`;
+}
+
+// I love you javascript
+function sortDriver(d1, d2) {
+    return d2.seniority - d1.seniority;
 }
 
 // Format drivers for display
 function formatDrivers(drivers) {
     return drivers
+        .sort(sortDriver)
         .map(formatDriver)
         .join(', ');
 }
