@@ -2,7 +2,7 @@
 function formatOffice(office) {
     const displayOffice = {};
 
-    // Display name is just office name.
+    // Display name is just ooffice name.
     displayOffice.name = office.name;
 
     // Simple address foomat
