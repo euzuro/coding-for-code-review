@@ -1,12 +1,12 @@
 // Format an office object for easy display
-function formatOffice(office) {
+function formatOffice(officeJson) {
     const displayOffice = {};
 
     // Display name is just ooffice name.
-    displayOffice.name = office.name;
+    displayOffice.name = officeJson.name;
 
     // Simple address format
-    const address = office.address;
+    const address = officeJson.address;
     const street = address.street;
     const city = address.city;
     const country = address.country;
@@ -14,7 +14,7 @@ function formatOffice(office) {
     displayOffice.address = `${street}, ${city}, ${country} ${zip}`;
 
     displayOffice.drivers =
-        office.drivers
+        officeJson.drivers
             .map(driver => `${driver.first} ${driver.last}`)
             .join(', ');
 
