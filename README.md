@@ -5,14 +5,15 @@ This is a small repo used for the talk: **Coding for Code Review**
 
 ## Introduction
 
-Let's pretend we are working on the reporting UI for one of those
-food delivery services.
+![image](https://user-images.githubusercontent.com/793700/68904824-29922880-073f-11ea-8489-caa24a27dcf8.png)
 
-We have a page that displays a list of all the company's offices,
-together with a list of their drivers.
+Let's pretend we are working on the **Reporting UI** for a **Food Delivery Services**.
 
-Our PM has asked us to make a small modification to the way we
-display the drivers...
+We have a page that displays a list of all the company's offices, together with a list of their drivers:
+
+![image](https://user-images.githubusercontent.com/793700/68905212-ae317680-0740-11ea-990a-0a9a907dbd67.png)
+
+Our PM has asked us to make a small modification to the way we display the drivers...
 
 ## The Function: `formatOffice()`
 
