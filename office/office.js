@@ -1,7 +1,12 @@
 function formatDrivers(drivers) {
     return drivers
-        .map(driver => `${driver.first} ${driver.last}`)
+        .sort(sortDriver)
+        .map(driver => `${driver.first} ${driver.last} (${driver.seniority})`)
         .join(', ');
+}
+
+function sortDriver(d1, d2) {
+    return d2.seniority - d1.seniority;
 }
 
 // Format an office object for easy display
