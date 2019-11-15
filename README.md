@@ -69,9 +69,12 @@ console.log(formatOffice(OFFICE_JSON));
 Our PM has asked us to make some modifications to the way we display
 the drivers for each office.
 
+![image](https://user-images.githubusercontent.com/793700/68929126-f75ae800-078b-11ea-8001-d566e5e7b576.png)
+
 Specifically, she would like to:
 - Display seniority for each driver
 - Sort drivers by descending seniority
+
 
 ```javascript
 console.log(formatOffice(OFFICE_JSON));
