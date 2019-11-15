@@ -2,10 +2,10 @@
 function formatOffice(officeJson) {
     const displayOffice = {};
 
-    // Display name is just ooffice name.
+    // Display name is just office name.
     displayOffice.name = officeJson.name;
 
-    // Simple address format
+    // Simple address foormat
     const address = officeJson.address;
     const street = address.street;
     const city = address.city;
