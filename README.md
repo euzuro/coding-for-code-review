@@ -13,7 +13,15 @@ We have a page that displays a list of all the company's offices, together with 
 
 ![image](https://user-images.githubusercontent.com/793700/68905212-ae317680-0740-11ea-990a-0a9a907dbd67.png)
 
-Our PM has asked us to make a small modification to the way we display the drivers...
+## Desired Modification
+
+Our PM has asked us to make some modifications to the way we display the drivers for each office:
+
+![image](https://user-images.githubusercontent.com/793700/68929126-f75ae800-078b-11ea-8001-d566e5e7b576.png)
+
+Specifically, she would like to:
+- Display seniority for each driver
+- Sort drivers by descending seniority
 
 ## The Function: `formatOffice()`
 
@@ -64,17 +72,7 @@ console.log(formatOffice(OFFICE_JSON));
 // };
 ```
 
-## Desired Modification
-
-Our PM has asked us to make some modifications to the way we display
-the drivers for each office.
-
-![image](https://user-images.githubusercontent.com/793700/68929126-f75ae800-078b-11ea-8001-d566e5e7b576.png)
-
-Specifically, she would like to:
-- Display seniority for each driver
-- Sort drivers by descending seniority
-
+## Output Tomorrow
 
 ```javascript
 console.log(formatOffice(OFFICE_JSON));
