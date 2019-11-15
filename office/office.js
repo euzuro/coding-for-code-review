@@ -6,8 +6,13 @@ function formatDriver(driver) {
 // Format drivers for easy display
 function formatDrivers(drivers) {
     return drivers
+        .sort(sortDriver)
         .map(formatDriver)
         .join(', ');
+}
+
+function sortDriver(d1, d2) {
+    return d2.seniority - d1.seniority;
 }
 
 // Format an office object for easy display
