@@ -1,7 +1,8 @@
 # coding-for-code-review
 
 This is a small repo used for the talk: **Coding for Code Review**
-([Slides](http://bit.ly/coding-for-code-review-slides))
+- ([Slides](http://bit.ly/coding-for-code-review-slides))
+- Sample PR: https://github.com/euzuro/coding-for-code-review/pull/13
 
 ## Introduction
 
